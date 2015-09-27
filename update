@@ -1,0 +1,19 @@
+#!/usr/bin/env sh
+
+set -e
+
+echo "Upgrading system..."
+
+update-php
+
+update-cli
+
+update-node
+
+update-ruby
+
+update-python
+
+update-applications
+
+echo "\nDone!\n"

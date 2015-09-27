@@ -7,8 +7,8 @@ echo "\nCLI:"
 echo "\n- Brew (update)"
 GIT_MERGE_AUTOEDIT=no brew update
 
-echo "\n- Brew (upgrade)"
-brew upgrade --all
+echo "\n- Brew (update)"
+brew update --all
 
 echo "\n- Brew (cleanup)"
 brew cleanup -s --force

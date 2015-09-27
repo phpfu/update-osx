@@ -2,6 +2,6 @@
 
 echo "\n- Pip (pip)"
 
-upgrade-pip2
+update-pip2
 
-upgrade-pip3
+update-pip3

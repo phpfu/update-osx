@@ -4,4 +4,4 @@ set -e
 
 echo "\nPython:"
 
-upgrade-pip
+update-pip

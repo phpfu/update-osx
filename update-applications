@@ -4,5 +4,5 @@ set -e
 
 echo "\nApplications:"
 
-echo "\n- Cask (upgrade)"
-brew-cask-upgrade
+echo "\n- Cask (update)"
+brew-cask-update

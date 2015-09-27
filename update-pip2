@@ -1,11 +1,11 @@
 #!/usr/bin/env sh
 
 echo "\n- Pip2 (pip)"
-pip2 install --upgrade --no-use-wheel pip
+pip2 install --update --no-use-wheel pip
 
 echo "\n- Pip2 (setuptools)"
-pip2 install --upgrade --no-use-wheel setuptools
+pip2 install --update --no-use-wheel setuptools
 
 # http://stackoverflow.com/questions/2720014/upgrading-all-packages-with-pip
-echo "\n- Pip2 (upgrade all)"
+echo "\n- Pip2 (update all)"
 pip2 freeze --local | grep -v '^\-e' | cut -d = -f 1  | xargs -n1 pip2 install -U
